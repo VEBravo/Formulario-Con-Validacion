@@ -1,0 +1,60 @@
+body{
+    font-family: "Roboto", monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    background-color: rgb(249, 249, 238);
+    padding: 25px;
+    border-radius: 8px;
+    border: solid rgb(58, 48, 36);
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline{
+    display: inline-block;
+}
+
+input, select{
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: rgb(210, 203, 165);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(151, 146, 121);
+}
+
+.error{
+    color: red;
+    font-size: 10px;
+}
