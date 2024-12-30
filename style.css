@@ -3,19 +3,20 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    background: linear-gradient(180deg, #00e1ff, #125780, #0b323c);
     justify-content: center;
 }
 
 #formulario{
-    background-color: rgb(249, 249, 238);
+    color:white;
+    background-color: #125780;
     padding: 25px;
-    border-radius: 8px;
-    border: solid rgb(58, 48, 36);
     margin: 20px;
 }
 
 label{
     display: block;
+    font-size: large;
     margin-bottom: 5px;
 }
 
@@ -42,8 +43,9 @@ select{
 }
 
 input[type="submit"]{
-    background-color: rgb(210, 203, 165);
+    background-color: rgb(255, 102, 0);
     border: none;
+    color:white;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
@@ -51,7 +53,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color: rgb(151, 146, 121);
+    background-color: rgb(255, 166, 98);
 }
 
 .error{
@@ -74,19 +76,4 @@ input[type="submit"]:hover{
     width: 0;
     background-color: #4caf50;
     transition: width 0.3s ease-in-out;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #4caf50;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
 }
